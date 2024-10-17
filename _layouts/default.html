@@ -4,12 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | Peace Pigeons</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
   <header>
     <nav>
-      <ul>
+      <div class="logo-container">
+        <img src="/assets/images/logo-peacepigeons.jpg" alt="Peace Pigeons Logo" class="logo">
+      </div>
+      <ul class="nav-menu">
         <li><a href="/">Home</a></li>
         <li><a href="/tokenomics.html">Tokenomics</a></li>
         <li><a href="/roadmap.html">Roadmap</a></li>
@@ -19,9 +23,11 @@
       </ul>
     </nav>
   </header>
+
   <main>
     {{ content }}
   </main>
+
   <footer>
     <p>&copy; 2024 Peace Pigeons. All rights reserved.</p>
   </footer>
