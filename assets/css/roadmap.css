@@ -1,11 +1,5 @@
 /* Roadmap Section */
-.roadmap h1 {
-    text-align: center;
-    font-size: 2.5em;
-    color: #007bff;
-    margin-bottom: 3em;
-  }
-  
+
   .roadmap-container {
     display: flex;
     flex-direction: column;

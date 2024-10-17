@@ -8,27 +8,35 @@
 
   <link href="/assets/css/styles.css" rel="stylesheet"> <!-- General Styles -->
 
-  {% if page.title == "Roadmap" %}
   <link href="/assets/css/roadmap.css" rel="stylesheet"> <!-- Roadmap Styles -->
-  {% endif %}
-  {% if page.title == "Contact Us" %}
   <link href="/assets/css/contact.css" rel="stylesheet"> <!-- Contact Us Styles -->
-  {% endif %}
+  
 </head>
 
 <body>
+    <!-- External JavaScript file -->
+  <script src="/assets/js/script.js"></script>
+
   <header>
     <nav class="navbar">
       <div class="logo-container">
         <img src="/assets/images/logo-peacepigeons.jpg" alt="Peace Pigeons Logo" class="logo">
       </div>
-      <ul class="nav-menu">
+      <!-- <ul class="nav-menu">
         <li><a href="/">Home</a></li>
         <li><a href="/tokenomics.html">Tokenomics</a></li>
         <li><a href="/roadmap.html">Roadmap</a></li>
         <li><a href="/prelaunch.html">Prelaunch</a></li>
         <li><a href="/faq.html">FAQ</a></li>
         <li><a href="/contact.html">Contact</a></li>
+      </ul> -->
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tokenomics">Tokenomics</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#prelaunch">Prelaunch</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
