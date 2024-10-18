@@ -101,7 +101,7 @@ h1 {
 
 /* Ensure no overlap of sections */
 section {
-  padding: 5em 0;
+  padding: 15em 0;
 }
 
 /* Responsive General Layout */
@@ -159,6 +159,21 @@ section {
 
 .list-with-icons {
   list-style-image: url('/assets/images/pigeon_icon.png');
+}
+
+.sub-section-title {
+  color: #e78d1e;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-shadow: 1px 1px 5px #f1ce8d;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+#whatarewe p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+  font-size: 1.1em;
 }
 
 #flightplan {
