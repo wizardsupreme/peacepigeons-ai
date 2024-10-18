@@ -121,3 +121,69 @@ section {
     padding: 2em;
   }
 }
+
+#header {
+  text-align: center;
+  padding: 2em;
+  background-color: #f0f8ff;
+}
+
+.logo {
+  width: 150px;
+}
+
+.main-title {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #ff69b4;
+}
+
+.header-tagline {
+  font-size: 1.2em;
+}
+
+#welcome {
+  padding: 2em;
+}
+
+.welcome-box {
+  background: #e6ffe6;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.section-title {
+  color: #5718b5;
+  font-family: 'Impact', sans-serif;
+  text-shadow: 1px 1px 5px #780d58;
+}
+
+.list-with-icons {
+  list-style-image: url('/assets/images/pigeon_icon.png');
+}
+
+#flightplan {
+  padding: 2em;
+}
+
+.full-width-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+#joinus {
+  padding: 2em;
+  background-color: #f0e68c;
+  border-radius: 10px;
+}
+
+.telegram-link {
+  color: #1e90ff;
+  text-decoration: underline;
+}
+
+.join-us-image {
+  width: 150px;
+  margin-top: 1em;
+}
+
