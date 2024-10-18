@@ -1,0 +1,28 @@
+# Site settings
+title: "Peace Pigeons"
+description: "A Jekyll site for peace pigeons memecoin"
+baseurl: "" # For local development, leave this empty; for GitHub Pages use "/repo-name"
+url: "https://peacepigeons.meme" # The base URL of your site
+
+# Build settings
+theme: minima # Or specify a custom theme, or use a Bootstrap-based one
+markdown: kramdown
+
+# Pagination
+paginate: 5
+
+# Jekyll directories
+source: .
+destination: ./_site
+
+# Exclude files and directories from the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Plugin settings
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
