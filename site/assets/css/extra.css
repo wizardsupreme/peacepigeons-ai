@@ -1,0 +1,51 @@
+.md-typeset img, .md-typeset svg, .md-typeset video {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Hide the top navigation bar */
+.md-header-nav {
+    display: none;
+  }
+  
+  /* Adjust the header height after removing the navigation */
+  .md-header {
+    height: auto;
+  }
+  
+/* Hide the top navigation bar completely */
+.md-header__inner .md-grid .md-header-nav .md-header .md-search  .logo_container {
+    display: none;
+  }
+    
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+/*  
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
+*/
+/* Fix logo size to maintain aspect ratio */
+.logo-container img {
+    height: auto;       /* Let the height adjust automatically */
+    width: 100px;       /* Set the width to a fixed size */
+    max-height: 100px;  /* Optional: Set a max height to prevent it from becoming too large */
+}
+
+  .logo {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .md-sidebar {
+    display: none;
+  }
+  
+  .md-main {
+    margin-left: 0; /* Shift the main content to fill the space */
+  }
+  

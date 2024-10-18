@@ -1,0 +1,47 @@
+/* Contact Page Styling */
+.contact {
+    text-align: center;
+    margin: 3em auto;
+  }
+  
+  
+  .contact p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contact-item p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .contact-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-item a:hover {
+    color: #0056b3;
+  }
+  

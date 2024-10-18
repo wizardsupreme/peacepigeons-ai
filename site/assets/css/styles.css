@@ -1,0 +1,204 @@
+
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Sticky Header */
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+/* Shrinking Header Effect on Scroll */
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional shadow for visibility */
+}
+
+
+header.scrolled {
+  /* padding: 0.5em 2em; */
+  background-color: #f1f1f1;
+  z-index: 1000;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional shadow for visibility */
+}
+
+header.scrolled .nav-menu li a {
+  color: #423bb9;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: #ffffff;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu li a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+main {
+/*  padding: 2em 0; /* Reduced padding */
+  margin: 0 auto;
+
+  padding: 4em 2em; 
+  background: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+/*  margin: 2em auto; */
+  width: 90%;
+  max-width: 1200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #007bff;
+  margin-bottom: 3em;
+}
+
+/* Ensure no overlap of sections */
+section {
+  padding: 15em 0;
+}
+
+/* Responsive General Layout */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  main {
+    width: 100%;
+    padding: 2em;
+  }
+}
+
+#header {
+  text-align: center;
+  padding: 2em;
+  background-color: #f0f8ff;
+}
+
+.logo {
+  width: 150px;
+}
+
+.main-title {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #ff69b4;
+}
+
+.header-tagline {
+  font-size: 1.2em;
+}
+
+#welcome {
+  padding: 2em;
+}
+
+.welcome-box {
+  background: #e6ffe6;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.section-title {
+  color: #5718b5;
+  font-family: 'Impact', sans-serif;
+  text-shadow: 1px 1px 5px #780d58;
+}
+
+.list-with-icons {
+  list-style-image: url('/assets/images/pigeon_icon.png');
+}
+
+.sub-section-title {
+  color: #e78d1e;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-shadow: 1px 1px 5px #f1ce8d;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+#whatarewe p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+#flightplan {
+  padding: 2em;
+}
+
+.full-width-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+#joinus {
+  padding: 2em;
+  background-color: #f0e68c;
+  border-radius: 10px;
+}
+
+.telegram-link {
+  color: #1e90ff;
+  text-decoration: underline;
+}
+
+.join-us-image {
+  width: 150px;
+  margin-top: 1em;
+}
+

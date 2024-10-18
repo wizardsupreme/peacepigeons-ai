@@ -1,0 +1,13 @@
+
+site_name: Peace Pigeons
+theme:
+  name: 'material'
+  logo: 'assets/images/logo-peacepigeons.jpg'
+  custom_dir: overrides
+  palette:
+    primary: 'white'
+    accent: 'light blue'
+extra_css:
+  - https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css
+  - assets/css/extra.css
+

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block header %}
+  <nav class="navbar">
+    <div class="logo-container">
+        <img src="{{ base_url }}/assets/images/logo-peacepigeons.jpg" alt="Peace Pigeons Logo" style="height: 100px;">
+     
+    </div>
+    {{ super() }} <!-- Retain the default header content -->
+  </nav>
+{% endblock %}
